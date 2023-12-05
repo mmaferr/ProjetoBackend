@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&family=Satisfy&family=Schoolbell&display=swap');
+
+body {
+    background: #FFFBEC;
+}
+
+ul {
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    padding: 5px;
+}
+
+a {
+    color: #60564D;
+    text-decoration: none;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+}
+
+nav a:hover {
+    color: #ee92d2;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #EEBBC4;
+    text-align: center;
+    font-family: Satisfy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 70px;
+}
+
+h1, h2 {
+    margin-top: 0px;     /*espaço acima*/
+    margin-bottom: 0px;
+} 
+
+h1 {
+    color: #60564D;
+    font-family: Righteous;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+p {
+    color: #60564D;
+    font-family: Sarala;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+
+    /*margin-bottom: Espaçamento abaixo do parágrafo */
+}
+
+button {
+    width: 149px;
+    height: 41px;
+    border-radius: 20px;
+    background: #60564D;
+    color: #FFF;
+    font-family: 'Schoolbell', cursive;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px; /* Espaçamento acima do botão */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.2); /* Aumenta o botão quando o mouse passa por cima */
+}
+
+img {
+    width: 427px;
+height: 404px;
+}
+
+.cotainer-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+
