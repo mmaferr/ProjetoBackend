@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicial.css">
+    <title>Bunny Library</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="quemsomos.html">Quem somos</a>
+                </li>
+                <li>
+                        <a href="login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+<header>
+        <div class="titulo">
+            <h1>Bunny Library</h1>        
+            <h3>Bem vindo a nossa biblioteca, onde livros e muita fofura se encontram</h3>
+            <script src="solicitar.js"></script>
+            <button onclick="mostrarCaixaLogin()">COMECE A EXPLORAR</button>
+        </div>
+        <div id="caixa-login" class="caixa-login">
+            <span id="fechar" class="fechar" onclick="fecharCaixaLogin()">&times;</span>
+            <h2>Bem vindo leitor!</h2>
+            <form>
+                <label for="nome" class="labelInput">Nome completo</label>
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <br>
+                <label for="email" class="labelInput">Email</label>
+                <input type="text" name="email" id="email" class="inputUser" required>
+                <br>
+                <label for="username">Nome de usuário:</label>
+                <input type="text" id="username" name="username" required>    
+                <br>               
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">CADASTRAR</button>
+            </form>
+        </div>
+        
+        
+    </header>
+</body>
+</html>
